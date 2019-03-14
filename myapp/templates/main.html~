@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>李开鸣的个人网站</title>
+<meta name="keywords" content="李开鸣的个人网站" />
+<meta name="description" content="个人网站" />
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<div class="topnav">
+<a href="http://www.baidu.com" target="_blank">返回主页</a>
+</div>
+<div id="wrapper">
+  <header>
+    <div class="headtop"></div>
+    <div class="contenttop">
+      <div class="logo f_l">李开鸣的个人网站</div>
+      <div class="search f_r">
+        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+          <input name="keyboard" id="keyboard" class="input_text" value="搜索服务暂未开发" style="color: rgb(153, 153, 153);" onfocus="if(value=='搜索服务暂未开发'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='搜索服务暂未开发'}" type="text">
+          <input name="show" value="title" type="hidden">
+          <input name="tempid" value="1" type="hidden">
+          <input name="tbname" value="news" type="hidden">
+          <input name="Submit" class="input_submit" value="搜索" type="submit">
+        </form>
+      </div>
+      <div class="blank"></div>
+      <nav>
+        <div  class="navigation">
+          <ul class="menu">
+            <li><a href="index.html">网站首页</a></li>
+            <li><a href="#">我的文章</a>
+              <ul>
+                <li><a href="about.html">算法</a></li>
+                <li><a href="listpic.html">linux</a></li>
+              </ul>
+            </li>
+            <li><a href="#">我的日记</a>
+            </li>
+            <li><a href="newslistpic.html">关于我</a> </li>
+            <li><a href="#">给我留言</a> </li>
+          </ul>
+        </div>
+      </nav>
+      <SCRIPT type=text/javascript>
+	// Navigation Menu
+	$(function() {
+		$(".menu ul").css({display: "none"}); // Opera Fix
+		$(".menu li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown("normal");
+		},function(){
+			$(this).find('ul:first').css({visibility: "hidden"});
+		});
+	});
+</SCRIPT> 
+    </div>
+  </header>
+  <div class="jztop"></div>
+  <div class="container">
+    <div class="bloglist f_l">
+      
+      <h3><a href="/jstt/bj/2017-07-13/784.html">¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²</a></h3>
+      <figure><img src="images/img_1.jpg" alt="¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²"></figure>
+      <ul>
+        <p> ÎÒÕûÀíÁËÒ»ÏÂÍøÓÑžøÎÒµÄÀŽÐÅ£¬Èç¹ûÄã»¹ÔÚ³ì³ù²»Ç°£¬²»·ÁÀŽ¿Ž¿Ž£¬µœµ×Òª²»ÒªŒá³ÖÏÂÈ¥£¡ÎÒÒ²»¶Ó­ŽóŒÒžøÎÒÀŽÐÅ£¬Ï£ÍûÄÜ°ïµœžü¶àÈË¡£</p>
+        <a title="¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²" href="/jstt/bj/2017-07-13/784.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2017-07-13</span><span>×÷Õß£º</span><span>žöÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±ÊŒÇ</a>]</span></p>
+      <h3><a href="/jstt/bj/2015-01-09/740.html">¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­</a></h3>
+      <figure><img src="images/img_2.jpg" alt="¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­"></figure>
+      <ul>
+        <p>²©¿ÍŽÓ×î³õµÄÓòÃû¹ºÂò£¬µœÉÏÏßÒÑŸ­ÓÐËÄÄêµÄÊ±ŒäÁË£¬ÕâËÄÄêµÄÊ±Œä£¬ÓÐÐŠ¹ý£¬ÓÐÔ¹¹ý£¬ÓÐ»Ú¹ý£¬ÓÐÖŽ×Å¹ý£¬Ò²ÓÐ·ÅÆú¹ý¡­µ«×îºó»¹ÊÇŒá³ÖÁËÏÂÀŽ£¬Ê±ŒäÈçŽËŽÒŽÒ£¬µÈÔÙ»Ø¹ýÍ·ÒÑÀŽ²»Œ°È¥ÃÖ²¹</p>
+        <a title="¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­" href="/jstt/bj/2015-01-09/740.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2015-01-09</span><span>×÷Õß£ºÑîÇà</span><span>žöÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±ÊŒÇ</a>]</span></p>
+      <h3><a href="/jstt/bj/2014-11-06/732.html">·ÖÏíÎÒµÄžöÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµœIPŽÓ10µœ600µÄ(ÍŒÎÄ)</a></h3>
+      <figure><img src="images/img_3.jpg" alt="·ÖÏíÎÒµÄžöÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµœIPŽÓ10µœ600µÄ(ÍŒÎÄ)"></figure>
+      <ul>
+        <p>ÎÒµÄžöÈË²©¿Í×Ü¹²Õ¹ÊŸÁËÈýžö°æ±Ÿ£¬œçÃæÒ²Ÿ­ÀúÁËÓÉ¡°Œòµ¥¡±µœ¡°žŽÔÓ¡±ÔÙµœ¡°Œòµ¥¡±£¬ÑÕÉ«ŽÓ¡°É«Ôóµ¥Ò»¡±µœ¡°Îå²Ê°ßìµ¡±ÔÙµœ¡°ŸÖ²¿µã×º¡±µÄ¹ý³Ì¡£Ô­ÀŽÒ»ÄêÒ»žö°æ±Ÿ£¡¶øÃ¿ŽÎžÄ°æµÄÆõ»ú¶ŒÊÇ±»°Ù¶È³Í·££¡œçÃæ²»ÒªÆµ·±žü»»£¡ºÃºÃŒì²éŽúÂë£¬ÓÐÃ»ÓÐÈßÓà¡¢œá¹¹ÓÐÃ»ÓÐ²»ºÏÀíµÄµØ·œ¡£</p>
+        <a title="·ÖÏíÎÒµÄžöÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµœIPŽÓ10µœ600µÄ(ÍŒÎÄ)" href="/jstt/bj/2014-11-06/732.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2014-11-06</span><span>×÷Õß£ºÑîÇà</span><span>žöÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±ÊŒÇ</a>]</span></p>
+      <h3><a href="/jstt/bj/2014-10-18/731.html">µÛ¹úcms³£ÓÃ±êÇ©µ÷ÓÃ·œ·š×Üœá£š²»µÃ²»ÊÕ²ØÅ¶£©</a></h3>
+      <figure><img src="images/img_4.jpg" alt="µÛ¹úcms³£ÓÃ±êÇ©µ÷ÓÃ·œ·š×Üœá£š²»µÃ²»ÊÕ²ØÅ¶£©"></figure>
+      <ul>
+        <p>ÕûÀíÁËÒ»Ð©³£ÓÃµÄµÛ¹úcmsµ÷ÓÃ£¬Áé¶¯±êÇ©ºÍÍòÄÜ±êÇ©µÄµ÷ÓÃ·œ·šŸÙÀý¡£»ÃµÆÆ¬¡¢±êÌâ¡¢Ò»Œ¶ÀžÄ¿¡¢¶þŒ¶ÀžÄ¿¡¢ŽøÄ£°æµÄÓÑÇéÁŽœÓ£šÏÂÀ­²Ëµ¥£©¡¢ÅÐ¶ÏÄÚÈÝÒ³×Ö¶ÎÎª¿ÕÊ±ÊÇÈçºÎµ÷ÓÃµÄµÈµÈ...ÐÂÊÖ¿ÉÒÔœèŒøÑ§Ï°¡£</p>
+        <a title="µÛ¹úcms³£ÓÃ±êÇ©µ÷ÓÃ·œ·š×Üœá£š²»µÃ²»ÊÕ²ØÅ¶£©" href="/jstt/bj/2014-10-18/731.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2015-01-09</span><span>×÷Õß£ºÑîÇà</span><span>žöÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±ÊŒÇ</a>]</span></p>
+      <h3><a href="/jstt/bj/2017-07-13/784.html">¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²</a></h3>
+      <figure><img src="images/img_1.jpg" alt="¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²"></figure>
+      <ul>
+        <p> ÎÒÕûÀíÁËÒ»ÏÂÍøÓÑžøÎÒµÄÀŽÐÅ£¬Èç¹ûÄã»¹ÔÚ³ì³ù²»Ç°£¬²»·ÁÀŽ¿Ž¿Ž£¬µœµ×Òª²»ÒªŒá³ÖÏÂÈ¥£¡ÎÒÒ²»¶Ó­ŽóŒÒžøÎÒÀŽÐÅ£¬Ï£ÍûÄÜ°ïµœžü¶àÈË¡£</p>
+        <a title="¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²" href="/jstt/bj/2017-07-13/784.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2017-07-13</span><span>×÷Õß£º</span><span>žöÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±ÊŒÇ</a>]</span></p>
+      <h3><a href="/jstt/bj/2015-01-09/740.html">¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­</a></h3>
+      <figure><img src="images/img_2.jpg" alt="¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­"></figure>
+      <ul>
+        <p>²©¿ÍŽÓ×î³õµÄÓòÃû¹ºÂò£¬µœÉÏÏßÒÑŸ­ÓÐËÄÄêµÄÊ±ŒäÁË£¬ÕâËÄÄêµÄÊ±Œä£¬ÓÐÐŠ¹ý£¬ÓÐÔ¹¹ý£¬ÓÐ»Ú¹ý£¬ÓÐÖŽ×Å¹ý£¬Ò²ÓÐ·ÅÆú¹ý¡­µ«×îºó»¹ÊÇŒá³ÖÁËÏÂÀŽ£¬Ê±ŒäÈçŽËŽÒŽÒ£¬µÈÔÙ»Ø¹ýÍ·ÒÑÀŽ²»Œ°È¥ÃÖ²¹</p>
+        <a title="¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­" href="/jstt/bj/2015-01-09/740.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2015-01-09</span><span>×÷Õß£ºÑîÇà</span><span>žöÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±ÊŒÇ</a>]</span></p>
+    </div>
+    
+    <div class="r_box f_r">
+      <div class="tit01">
+        <h3 class="tit">联系我</h3>
+        <div class="gzwm">
+          <ul>
+            <li><a class="email" href="#" target="_blank">我的电话</a></li>
+            <li><a class="qq" href="#mailto:admin@admin.com" target="_blank">我的邮箱</a></li>
+            <li><a class="tel" href="#" target="_blank">我的QQ</a></li>
+            <li><a class="prize" href="#">个人奖项</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--tit01 end-->
+      
+      <div class="tuwen">
+        <h3 class="tit">文章推荐</h3>
+        <ul>
+          <li><a href="/"><img src="images/01.jpg"><b>×¡ÔÚÊÖ»úÀïµÄÅóÓÑ</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅäŒþ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/02.jpg"><b>œÌÄãÔõÑùÓÃÇ··ÑÊÖ»ú²ŠŽòµç»°</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅäŒþ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/" title="ÊÖ»úµÄ16žöŸªÈËÐ¡ÃØÃÜ£¬ŸÝËµ99.999%µÄÈË¶Œ²»Öª"><img src="images/03.jpg"><b>ÊÖ»úµÄ16žöŸªÈËÐ¡ÃØÃÜ£¬ŸÝËµ...</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅäŒþ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/06.jpg"><b>×¡ÔÚÊÖ»úÀïµÄÅóÓÑ</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅäŒþ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/04.jpg"><b>œÌÄãÔõÑùÓÃÇ··ÑÊÖ»ú²ŠŽòµç»°</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅäŒþ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/02.jpg"><b>œÌÄãÔõÑùÓÃÇ··ÑÊÖ»ú²ŠŽòµç»°</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅäŒþ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/" title="ÊÖ»úµÄ16žöŸªÈËÐ¡ÃØÃÜ£¬ŸÝËµ99.999%µÄÈË¶Œ²»Öª"><img src="images/03.jpg"><b>ÊÖ»úµÄ16žöŸªÈËÐ¡ÃØÃÜ£¬ŸÝËµ...</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅäŒþ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+        </ul>
+      </div>
+      <div class="ph">
+        <h3 class="tit">点击排行</h3>
+        <ul class="rank">
+          <li><a href="/jstt/bj/2017-07-13/784.html" title="¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²" target="_blank">¡ŸÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉèŒÆÕâÌõÂ·ÉÏÅÇ»²À²</a></li>
+          <li><a href="/news/s/2016-05-20/751.html" title="IPÒªÍ»ÆÆ2000+ÁË" target="_blank">IPÒªÍ»ÆÆ2000+ÁË</a></li>
+          <li><a href="/jstt/web/2015-07-03/749.html" title="µÛ¹úcmsÊ×Ò³¡¢×Ô¶šÒåÒ³ÃæÈçºÎÊµÏÖ·ÖÒ³" target="_blank">µÛ¹úcmsÊ×Ò³¡¢×Ô¶šÒåÒ³ÃæÈçºÎÊµÏÖ·ÖÒ³</a></li>
+          <li><a href="/jstt/web/2015-02-25/745.html" title="¡ŸÒÑÆÀÑ¡¡¿žøÎÒÄ£°åPSDÔŽÎÄŒþ£¬ÎÒžøÄãÉèŒÆHTML£¡" target="_blank">¡ŸÒÑÆÀÑ¡¡¿žøÎÒÄ£°åPSDÔŽÎÄŒþ£¬ÎÒžøÄãÉèŒÆHTML£¡</a></li>
+          <li><a href="/jstt/bj/2015-02-14/744.html" title="¡ŸÖ£ÖØÉêÃ÷¡¿±ŸÕŸÖ»Ìá¹©Ÿ²Ì¬Ä£°åÏÂÔØ£¡" target="_blank">¡ŸÖ£ÖØÉêÃ÷¡¿±ŸÕŸÖ»Ìá¹©Ÿ²Ì¬Ä£°åÏÂÔØ£¡</a></li>
+          <li><a href="/news/s/2015-01-23/741.html" title="¡ŸÔÐÆÚÈÕŒÇ¡¿Éú»î±ŸžÃÈçŽË" target="_blank">¡ŸÔÐÆÚÈÕŒÇ¡¿Éú»î±ŸžÃÈçŽË</a></li>
+          <li><a href="/jstt/bj/2015-01-09/740.html" title="¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­" target="_blank">¡ŸŽÒŽÒÄÇÐ©Äê¡¿×ÜœážöÈË²©¿ÍŸ­ÀúµÄÕâËÄÄê¡­</a></li>
+          <li><a href="/jstt/web/2015-01-01/739.html" title=" 2014Äê¶ÈÓÅÐãžöÈË²©¿ÍÅÅÃû¹«²Œ" target="_blank"> 2014Äê¶ÈÓÅÐãžöÈË²©¿ÍÅÅÃû¹«²Œ</a></li>
+          <li><a href="/jstt/web/2014-12-18/736.html" title="2014Äê¶ÈÓÅÐãžöÈË²©¿ÍÆÀÑ¡»î¶¯" target="_blank">2014Äê¶ÈÓÅÐãžöÈË²©¿ÍÆÀÑ¡»î¶¯</a></li>
+          <li><a href="/jstt/css3/2014-12-09/734.html" title="Ê¹ÓÃCSS3ÖÆ×÷ÎÄ×Ö¡¢ÍŒÆ¬µ¹Ó°" target="_blank">Ê¹ÓÃCSS3ÖÆ×÷ÎÄ×Ö¡¢ÍŒÆ¬µ¹Ó°</a></li>
+          <li><a href="/jstt/css3/2014-11-18/733.html" title="¡Ÿ·ÖÏí¡¿css3²à±ßÀžµŒºœ²»Í¬·œÏò»®³öÐ§¹û" target="_blank">¡Ÿ·ÖÏí¡¿css3²à±ßÀžµŒºœ²»Í¬·œÏò»®³öÐ§¹û</a></li>
+          <li><a href="/jstt/bj/2014-11-06/732.html" title="·ÖÏíÎÒµÄžöÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµœIPŽÓ10µœ600µÄ(ÍŒÎÄ)" target="_blank">·ÖÏíÎÒµÄžöÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµœIPŽÓ10µœ600µÄ(ÍŒÎÄ)</a></li>
+        </ul>
+      </div>
+      <div class="ad"> <img src="images/03.jpg"> </div>
+    </div>
+  </div>
+  <div class="pagelist">页次：1/1 每页25 总数10<a href="/">首页</a><a href="/">上一页</a><a href="/">下一页</a><a href="/">尾页</a></div>
+  <!-- containerŽúÂë œáÊø -->
+  
+  <div class="jzend"></div>
+  <footer>
+    <div class="footer">
+      <div class="f_l">
+        <p>All Rights Reserved 版权所有  <a href="http://www.yangqq.com">李开鸣个人网站</a> </p>
+      </div>
+      <div class="f_r textr">
+        <a href="http://www.yangqq.com/">模板出处</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

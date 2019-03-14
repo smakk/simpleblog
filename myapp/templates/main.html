@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>李开鸣的个人网站</title>
+<meta name="keywords" content="李开鸣的个人网站" />
+<meta name="description" content="个人网站" />
+<link href="{{ url_for('static',filename='css/base.css') }}" rel="stylesheet">
+<link href="{{ url_for('static',filename='css/index.css') }}" rel="stylesheet">
+<link href="{{ url_for('static',filename='css/main.css') }}" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="{{ url_for('static',filename='js/base.css') }}"></script>
+<![endif]-->
+<script type="text/javascript" src="{{ url_for('static',filename='js/modernizr.js') }}"></script>
+
+
+<script type=text/javascript>$SCRIPT_ROOT = {{ request.script_root|tojson|safe }};</script>
+
+
+</head>
+<body>
+<!-- 
+<div class="topnav">
+<a href="http://www.baidu.com" target="_blank">返回主页</a>
+</div>
+ -->
+<div id="wrapper">
+  <header>
+    <div class="headtop"></div>
+    <div class="contenttop">
+      <div class="logo f_l">李开鸣的个人网站</div>
+      <div class="search f_r">
+        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+          <input name="keyboard" id="keyboard" class="input_text" value="搜索服务暂未开发" style="color: rgb(153, 153, 153);" onfocus="if(value=='搜索服务暂未开发'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='搜索服务暂未开发'}" type="text">
+          <input name="show" value="title" type="hidden">
+          <input name="tempid" value="1" type="hidden">
+          <input name="tbname" value="news" type="hidden">
+          <input name="Submit" class="input_submit" value="搜索" type="submit">
+        </form>
+      </div>
+      <div class="blank"></div>
+      <nav>
+        <div  class="navigation">
+          <ul class="menu">
+            <li><a href="index.html">网站首页</a></li>
+            <li><a href="#">我的文章</a>
+            
+            <!-- 
+              <ul> 
+                <li><a href="about.html">算法</a></li>
+                <li><a href="listpic.html">linux</a></li>
+              </ul>
+            -->
+            
+            </li>
+            <li><a href="#">学习笔记</a>
+            </li>
+            <li><a href="#">生活足迹</a></li>
+            <li><a href="#">给我留言</a> </li>
+          </ul>
+        </div>
+      </nav>
+      <SCRIPT type=text/javascript>
+	// Navigation Menu
+	$(function() {
+		$(".menu ul").css({display: "none"}); // Opera Fix
+		$(".menu li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown("normal");
+		},function(){
+			$(this).find('ul:first').css({visibility: "hidden"});
+		});
+	});
+</SCRIPT> 
+    </div>
+  </header>
+  <div class="jztop"></div>
+  <div class="container">
+    <div class="bloglist f_l">
+    
+      {% for item in items %}
+      
+      <h3><a href="{{ item.article_addr }}">{{ item.title }}</a></h3>
+      <ul>
+        <p> {{ item.article_context }} </p>
+        <a title="{{ item.extra_info }}" href="{{ item.article_addr }}"  class="readmore">查看文章</a>
+      </ul>
+      <p class="dateview"><span>{{ item.time }}</span><span>作者：{{ item.auther }}</span><span>所属分类[<a href="{{item.type_addr}}">{{item.article_type}}</a>]</span></p>
+    
+    	
+    	{% endfor %}
+    </div>
+    
+    <div class="r_box f_r">
+     <!--  
+      <div class="tit01">
+        <h3 class="tit">联系我</h3>
+        <div class="gzwm">
+          <ul>
+            <li><a class="email" href="#" target="_blank">我的电话</a></li>
+            <li><a class="qq" href="#mailto:admin@admin.com" target="_blank">我的邮箱</a></li>
+            <li><a class="tel" href="#" target="_blank">我的QQ</a></li>
+            <li><a class="prize" href="#">个人奖项</a></li>
+          </ul>
+        </div>
+      </div>
+      -->
+      <!--tit01 end-->
+      
+      <div class="ph">
+        <h3 class="tit">文章分类</h3>
+        
+        {% for art_cl in art_cls %}
+        <ul class="rank">
+          <li><a href="{{ art_cl.type_name }}" title="{{ art_cl.extra_info }}" target="_blank">{{art_cl.type_name}}</a></li>
+        </ul>
+        {% endfor %}
+        
+      </div>
+      <div class="tuwen">
+        <h3 class="tit">点击排行</h3>
+        {% for remm in remms %}
+        <ul>
+          <li><a href="{{ remm.article_addr }}"><b>{{ remm.title }}</b></a>
+            <p><span class="tulanmu"><a href="{{ remm.type_addr }}">{{ remm.article_type }}</a></span><span class="tutime">{{ remm.time }}</span></p>
+          </li>
+        </ul>
+        {% endfor %}
+      </div>
+      
+      <div class="ad"> <img class="ad_picture" src="static/images/03.jpg"> </div>
+    </div>
+  </div>
+  
+  <!-- 
+  <div class="pagelist">页次：1/1 每页25 总数10<a href="/">首页</a><a href="/">上一页</a><a href="/">下一页</a><a href="/">尾页</a></div>
+  --!>
+  <div class="pagelist"><a href = "/">查看更多</a></div>
+  <!-- containerŽúÂë œáÊø -->
+  
+  <div class="jzend"></div>
+  <footer>
+    <div class="footer">
+      <div class="f_l">
+        <p>All Rights Reserved 版权所有  <a href="">李开鸣个人网站</a> </p>
+      </div>
+      <div class="f_r textr">
+        <a href="http://www.yangqq.com/">模板出处</a>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
